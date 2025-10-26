@@ -1,0 +1,206 @@
+[
+  {
+    "model": "library.author",
+    "pk": 1,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Martin",
+      "birth_date": "1952-12-05"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 2,
+    "fields": {
+      "first_name": "Martin",
+      "last_name": "Fowler",
+      "birth_date": "1963-12-18"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 3,
+    "fields": {
+      "first_name": "Gabriel",
+      "last_name": "García Márquez",
+      "birth_date": "1927-03-06"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 4,
+    "fields": {
+      "first_name": "Isabel",
+      "last_name": "Allende",
+      "birth_date": "1942-08-02"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 5,
+    "fields": {
+      "first_name": "Jorge Luis",
+      "last_name": "Borges",
+      "birth_date": "1899-08-24"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 6,
+    "fields": {
+      "first_name": "Carlos",
+      "last_name": "Ruiz Zafón",
+      "birth_date": "1964-09-25"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 7,
+    "fields": {
+      "first_name": "Laura",
+      "last_name": "Gallego",
+      "birth_date": "1977-10-11"
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 8,
+    "fields": {
+      "first_name": "Mario",
+      "last_name": "Vargas Llosa",
+      "birth_date": "1936-03-28"
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "Clean Code",
+      "publication_date": "2008-08-01",
+      "isbn": "9780132350884",
+      "pages": 302,
+      "authors": [1]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "Refactoring",
+      "publication_date": "1999-07-08",
+      "isbn": "9780201485677",
+      "pages": 300,
+      "authors": [1, 2]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 3,
+    "fields": {
+      "title": "Cien años de soledad",
+      "publication_date": "1967-05-30",
+      "isbn": "9780307474728",
+      "pages": 471,
+      "authors": [3]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "La casa de los espíritus",
+      "publication_date": "1982-10-15",
+      "isbn": "9789500723767",
+      "pages": 481,
+      "authors": [4]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "El amor en los tiempos del cólera",
+      "publication_date": "1985-09-05",
+      "isbn": "9780307389732",
+      "pages": 348,
+      "authors": [3]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 6,
+    "fields": {
+      "title": "El Aleph",
+      "publication_date": "1949-06-01",
+      "isbn": "9789875666953",
+      "pages": 157,
+      "authors": [5]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 7,
+    "fields": {
+      "title": "La sombra del viento",
+      "publication_date": "2001-06-06",
+      "isbn": "9788408172177",
+      "pages": 565,
+      "authors": [6]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 8,
+    "fields": {
+      "title": "Donde los árboles cantan",
+      "publication_date": "2011-10-04",
+      "isbn": "9788467550030",
+      "pages": 480,
+      "authors": [7]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 9,
+    "fields": {
+      "title": "La ciudad y los perros",
+      "publication_date": "1963-02-01",
+      "isbn": "9788420471839",
+      "pages": 408,
+      "authors": [8]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 10,
+    "fields": {
+      "title": "El lenguaje de la pasión",
+      "publication_date": "2001-04-10",
+      "isbn": "9788466310260",
+      "pages": 365,
+      "authors": [8]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 11,
+    "fields": {
+      "title": "Programación limpia: Un manual de ética para desarrolladores",
+      "publication_date": "2019-09-10",
+      "isbn": "9780135781869",
+      "pages": 256,
+      "authors": [1]
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 12,
+    "fields": {
+      "title": "Patrones de diseño",
+      "publication_date": "1994-10-21",
+      "isbn": "9780201633610",
+      "pages": 395,
+      "authors": [2]
+    }
+  }
+]
