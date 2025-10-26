@@ -66,7 +66,7 @@ services:
 El archivo define los dos servicios que van a levantarse `web`, `db`.
 Al momento de levantar el proyecto, docker compose asigna el puerto 8000 al servicio web del puerto del contenedor al host local como se especifica en el archivo.
 
-Importante!:Verificar que el puerto 8000 ya no este en uso para que funcione correctamente el deploy.
+Importante!: Verificar que el puerto 8000 ya no este en uso para que funcione correctamente el deploy.
 
 ## Cómo usar
 
