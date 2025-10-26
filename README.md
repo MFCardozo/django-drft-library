@@ -69,6 +69,23 @@ Al momento de levantar el proyecto, docker compose asigna el puerto 8000 al serv
 
 Importante!: Verificar que el puerto 8000 ya no este en uso para que funcione correctamente el deploy.
 
+--
+### `.env.example`
+ ```text
+DJANGO_DEBUG=1
+DJANGO_SECRET_KEY=your-secret
+POSTGRES_DB=books_db
+POSTGRES_USER=books_user
+POSTGRES_PASSWORD=books_pass
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
+DJANGO_SUPERUSER_USERNAME=admin
+DJANGO_SUPERUSER_EMAIL=admin@example.com
+DJANGO_SUPERUSER_PASSWORD=admin123
+```
+
 ## Cómo usar
 
 ## Deploy de la aplicacion con docker compose
