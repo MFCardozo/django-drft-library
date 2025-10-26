@@ -143,6 +143,24 @@
 						"description": "Elimina un autor de la base de datos."
 					},
 					"response": []
+				},
+				{
+					"name": "Get Top authors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/authors/top_authors",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"authors",
+								"top_authors"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -161,7 +179,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"title\": \"Clean Code\",\n  \"publication_date\": \"2008-08-01\",\n  \"isbn\": \"9780132350884\",\n  \"authors\": [1]\n}"
+							"raw": "{\n  \"title\": \"Clean Code\",\n  \"publication_date\": \"2008-08-01\",\n  \"isbn\": \"9780132350884\",\n  \"pages\" : 300,\n  \"authors\": [1]\n}"
 						},
 						"url": {
 							"raw": "{{base_url}}/books/",
@@ -179,35 +197,15 @@
 						{
 							"name": "201 Created",
 							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Content-Type",
-										"value": "application/json"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n  \"title\": \"Clean Code\",\n  \"publication_date\": \"2008-08-01\",\n  \"isbn\": \"9780132350884\",\n  \"authors\": [1]\n}"
-								},
-								"url": {
-									"raw": "{{base_url}}/books/",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"books",
-										""
-									]
-								},
-								"description": "Crea un nuevo libro con uno o más autores asociados."
+								"method": "GET",
+								"header": []
 							},
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "Text",
 							"header": [],
 							"cookie": [],
-							"body": "{\n  \"id\": 1,\n  \"title\": \"Clean Code\",\n  \"publication_date\": \"2008-08-01\",\n  \"isbn\": \"9780132350884\",\n  \"authors\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Robert\",\n      \"last_name\": \"Martin\",\n      \"birth_date\": \"1952-12-05\",\n      \"full_name\": \"Robert Martin\"\n    }\n  ]\n}"
+							"body": "{\n  \"id\": 1,\n  \"title\": \"Clean Code\",\n  \"publication_date\": \"2008-08-01\",\n  \"isbn\": \"9780132350884\",\n  \"pages\": 300,\n  \"authors\": [\n    {\n      \"id\": 1,\n      \"first_name\": \"Robert\",\n      \"last_name\": \"Martin\",\n      \"birth_date\": \"1952-12-05\",\n      \"full_name\": \"Robert Martin\"\n    }\n  ]\n}"
 						}
 					]
 				},
@@ -296,6 +294,24 @@
 							]
 						},
 						"description": "Elimina un libro del sistema."
+					},
+					"response": []
+				},
+				{
+					"name": "Get books stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/books/stats",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"books",
+								"stats"
+							]
+						}
 					},
 					"response": []
 				}
