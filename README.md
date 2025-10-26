@@ -116,5 +116,5 @@ Situarse en el directorio raíz y ejecutar el script dependiendo del entorno:
 * Linux, bash : `./deploy.sh down`
 * Windows: `deploy down`
 ```
-$ ./deploy.sh up
+$ ./deploy.sh down
 ```
