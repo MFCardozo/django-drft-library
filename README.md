@@ -92,7 +92,7 @@ DJANGO_SUPERUSER_PASSWORD=admin123
 1. Renombrar el archivo `.env.example` a `.env`.
 2. Situarse en el directorio raíz y ejecutar el script dependiendo del entorno:
 * Linux, bash : `./deploy.sh up`
-* Windows: `deploy up`
+* Windows (cmd): `deploy up`
 ```
 $ ./deploy.sh up
 Running containers...
@@ -131,7 +131,7 @@ Algunas ideas para seguir mejorando este proyecto:
 ## Detener y eliminar los contenedores
 Situarse en el directorio raíz y ejecutar el script dependiendo del entorno:
 * Linux, bash : `./deploy.sh down`
-* Windows: `deploy down`
+* Windows (cmd): `deploy down`
 ```
 $ ./deploy.sh down
 ```
