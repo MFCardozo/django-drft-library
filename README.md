@@ -128,13 +128,13 @@ Luego de finalizar el deploy, ir a `http://localhost:8000/admin` en tu navegador
    Asegúrate de que no haya errores de migración, conexión a la base de datos o carga de archivos estáticos.
 
 2. **Probar endpoints con Postman**
-   - Se incluye una **colección de Postman** en el directorio `LibraryAPI.postman_collection.json`).
+   - Se incluye una **colección de Postman** en el directorio [_LibraryAPI.postman_collection.json_](LibraryAPI.postman_collection.json).
    - Importa la colección en Postman.
    - Ejecuta las solicitudes para verificar que los endpoints del API respondan correctamente.
    - Los principales endpoints incluyen:
-     - `GET /api/books/` — Lista de libros.
-     - `GET /api/authors/` — Lista de autores.
-     - `GET /api/books/stats/` — Estadísticas agregadas de los libros.
+     - `GET /books/` — Lista de libros.
+     - `GET /authors/` — Lista de autores.
+     - `GET /books/stats/` — Estadísticas agregadas de los libros.
    - Si todo está configurado correctamente, deberías recibir respuestas JSON válidas.
 
 3. **Comprobar panel de administración**
