@@ -72,7 +72,7 @@ Importante!: Verificar que el puerto 8000 ya no este en uso para que funcione co
 ## Cómo usar
 
 ## Deploy de la aplicacion con docker compose
-1. Copiar `.env.example` a `.env` y completar las variables.
+1. Renombrar el archivo `.env.example` a `.env` y completar las variables.
 2. Situarse en el directorio raíz y ejecutar el script dependiendo del entorno:
 * Linux, bash : `./deploy.sh up`
 * Windows: `deploy up`
