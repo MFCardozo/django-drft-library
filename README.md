@@ -35,6 +35,7 @@ Estructura del proyecto:
  │   ├── urls.py
  │   ├── tests.py
  └── .gitignored
+ └── .gitattributes
 ```
 
 [_compose.yaml_](docker-compose.yaml)
